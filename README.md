@@ -60,6 +60,7 @@ Once the `.gif` file has been split and rejoined as an `.mpg`, it uses [FFMpeg](
 ## The "gif_video" task
 
 ### Overview
+
 In your project's Gruntfile, add a section named `gif_video` to the data object passed into `grunt.initConfig()`.
 
 ```js
@@ -109,6 +110,7 @@ Determines if the temporary directory used for the conversion process, will be d
 
 Type: `Object`
 Default:
+
 ```javascript
 ffmpeg: {
   mp4: [
@@ -167,8 +169,12 @@ grunt --verbose
 
 Also, it may be useful to retain the temporary directory that's used for conversion and change the `limit` option to 1, so the messages are displayed in a readable sequence.
 
+```javascript
+options: {
+  cleanup: false,
+  limit: 1
+}
 ```
-
 
 ## Contributing
 
