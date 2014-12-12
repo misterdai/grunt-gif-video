@@ -3,7 +3,7 @@
 > Converts animated GIF files to HTML5 compatible videos.
 
 [![Dependency Status](https://david-dm.org/misterdai/grunt-gif-video.png?style=flat-square)](https://david-dm.org/misterdai/grunt-gif-video)
-[![devDependency Status](https://david-dm.org/misterdai/grunt-gif-video/peer-status.png?style=flat-square)](https://david-dm.org/misterdai/grunt-gif-video#info=devDependencies)
+[![devDependency Status](https://david-dm.org/misterdai/grunt-gif-video/dev-status.png?style=flat-square)](https://david-dm.org/misterdai/grunt-gif-video#info=devDependencies)
 
 [![NPM](https://nodei.co/npm/grunt-gif-video.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/grunt-gif-video/)
 
